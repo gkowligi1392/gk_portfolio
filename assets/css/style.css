@@ -153,9 +153,50 @@ section {
 /* Work Style End */
 
 /* Contact Me Style Start */
-
+.contact-me p {
+    line-height: 1.7;
+    color: var(--tertiary-color);
+    width: 80%;
+    font-size: 20px;
+    padding: 20px;
+    text-align: left;
+}
 /* Contact Me Style End */
 
 /* Resume Style Start */
 
 /* Resume Style End */
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1500px){
+    .section-title {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .section-title {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .section-title {
+        font-size: 16px;
+        padding: 15px;
+    }
+
+    .small-img {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header h1 {
+        font-size: 24px;
+    }
+
+    .section-title {
+        padding: 10px;
+    }
+}
