@@ -147,6 +147,11 @@ section {
     max-width: 100%;
 }
 
+.border {
+    border: 1px solid;
+    color: black;
+}
+
 .small-img {
     height: 500px;
 }
